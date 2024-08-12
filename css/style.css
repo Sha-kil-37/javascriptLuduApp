@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  height: 150px;
+  width: 150px;
+  background: url(../images/bacground.jpg) no-repeat center/cover;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 20px 0px 0px 0px;
+}
+.ludu_display {
+  width: 50%;
+  height: 50px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ludu_display p {
+  color: pink;
+  font-weight: 700;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  background-color: black;
+  border-radius: 2px;
+  display: none;
+}
+.icon i {
+  color: red;
+  font-size: 6px;
+}
+
+.ludu_btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ludu_btn button {
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 0, 0, 0.13);
+}
